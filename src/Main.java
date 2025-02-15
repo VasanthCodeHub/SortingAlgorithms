@@ -9,6 +9,8 @@ public class Main {
         System.out.println(Arrays.toString(arr));
         arr = MergeSort.mergeSort(arr);
         System.out.println(Arrays.toString(arr));
+        arr = InsertionSort.insertionSort(arr);
+        System.out.println(Arrays.toString(arr));
 
     }
 }
